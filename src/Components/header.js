@@ -1,11 +1,11 @@
 import React from "react";
 import styled from "styled-components";
 import { HashRouter as Router, Switch, Link, Route } from "react-router-dom";
-import Home from "./Home";
-import SM from "./SM";
-import TEO from "./TEO";
-import WK from "./WK";
-import ErrorMessage from "./ErrorMessage";
+import Home from "../Routes/Home";
+import SM from "../Routes/SM";
+import TEO from "../Routes/TEO";
+import WK from "../Routes/WK";
+import ErrorMessage from "../Routes/ErrorMessage";
 
 const Header = styled.div`
   text-align: center;
